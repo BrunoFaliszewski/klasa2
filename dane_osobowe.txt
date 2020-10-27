@@ -1,0 +1,5 @@
+imię: Bruno
+nazwisko: Faliszewski
+email: bruno.faliszewski@gmail.com
+szkoła: PLOPŁ
+klasa: IIE
