@@ -4,7 +4,7 @@ def fmin_val():
     return min_val
 
 def fmax_val():
-    max_val = int(input('Podaj maksymalną wartość losowanej liczby (nie większą niż 9999): '))
+    max_val = int(input('Podaj maksymalną wartość losowanej liczby: '))
         
     return max_val
 
