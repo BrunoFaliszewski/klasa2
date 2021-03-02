@@ -17,8 +17,7 @@ class Lotto:
             file.write(' '.join([str(i) for i in sorted(self.numbers)])+'\n')
 
 l1 = Lotto()
-i1 = input('Czy pokazać wyniki losowania?: ').upper()
-if i1 == "TAK":
+if input('Czy pokazać wyniki losowania?: ').upper() == "TAK":
     l1.show()
 i2 = input('Czy zapisać wyniki losowania do pliku lotto.txt?: ').upper()
 if i2 == "TAK":
