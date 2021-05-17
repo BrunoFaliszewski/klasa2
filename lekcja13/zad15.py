@@ -10,15 +10,18 @@ def display_insert(number):
     display_text = display.get() + str(number)
     display.delete(0, END)
     display.insert(0, display_text)
-    print(number)
 
 def clear_pressed():
     display.delete(0, END)
 
 def equal_pressed():
-    result = eval(display.get())
-    display.delete(0, END)
-    display.insert(0, result)
+    try:
+        result = eval(display.get())
+        display.delete(0, END)
+        display.insert(0, result)
+    except SyntaxError:
+        display.delete(0, END)
+        display.insert(0, "Invalid Syntax")
 
 Button1 = Button(root, text="1", padx=40, pady=20, command=lambda: display_insert(1))
 Button2 = Button(root, text="2", padx=40, pady=20, command=lambda: display_insert(2))
