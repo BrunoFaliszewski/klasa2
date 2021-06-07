@@ -1,0 +1,8 @@
+Zdanie numer 1.
+Sentence no 1.
+Zdanie numer 2.
+Sentence no 2.
+Zdanie numer 3.
+Sentence no 3.
+Zdanie numer 4.
+Sentence no 4.

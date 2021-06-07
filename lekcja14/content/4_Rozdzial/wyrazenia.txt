@@ -1,0 +1,10 @@
+wyrazenie 1
+phrase 1
+wyrazenie 2
+phrase 2
+wyrazenie 3
+phrase 3
+wyrazenie 4
+phrase 4
+wyrazenie 5
+phrase 5
